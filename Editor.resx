@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="nHelp.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>883, 17</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="Timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 17</value>
+  </metadata>
+  <metadata name="Timer3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>195, 17</value>
+  </metadata>
+  <metadata name="Timer4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>284, 17</value>
+  </metadata>
+  <metadata name="pNote.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>784, 17</value>
+  </metadata>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>373, 17</value>
+  </metadata>
+  <data name="Label36.ToolTip" xml:space="preserve">
+    <value>Texture: the texture map used by the car (must be Windows Bitmap  file, 256x256 pixels for Re-Volt 1.1 and 1.0).  
+               later Re-Volt everything beyond 8192x8192 (and accepted by graphics card) is acceptable</value>
+  </data>
+  <metadata name="Timer5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>483, 17</value>
+  </metadata>
+  <metadata name="Timer6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>572, 17</value>
+  </metadata>
+  <data name="TextBox3.ToolTip" xml:space="preserve">
+    <value>This is the car's actual top speed in feet per minute.
+ It is best to test this in Toytanic or some other really long and flat track. 
+This is only displayed for default Re-Volt cars since Re-Volt displays "???" when selecting a custom car no matter what this value is.</value>
+  </data>
+  <data name="Label21.ToolTip" xml:space="preserve">
+    <value>This is the car's actual top speed in feet per minute.
+ It is best to test this in Toytanic or some other really long and flat track. 
+This is only displayed for default Re-Volt cars since Re-Volt displays "???" when selecting a custom car no matter what this value is.</value>
+  </data>
+  <metadata name="ColorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>661, 17</value>
+  </metadata>
+  <data name="TextBox9.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more slowly.</value>
+  </data>
+  <data name="Label30.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label32.ToolTip" xml:space="preserve">
+    <value>This is like setting the amount the throttle on the car will stick. 
+ The lower the value, the longer it takes before the car will respond to the throttle input.  
+Higher values than 4.5 don't really matter.</value>
+  </data>
+  <data name="TextBox12.ToolTip" xml:space="preserve">
+    <value>This is the car's actual top speed in feet per minute.
+ It is best to test this in Toytanic or some other really long and flat track. 
+This is only displayed for default Re-Volt cars since Re-Volt displays "???" when selecting a custom car no matter what this value is.</value>
+  </data>
+  <data name="TextBox13.ToolTip" xml:space="preserve">
+    <value>This is the car's tendency to stick to the floor once put there - kind of like magnetism. 
+"2" seems about average for Re-Volt cars.  
+Lower values will let the car lift off the track much more easily, and higher values will cause it to stick. </value>
+  </data>
+  <data name="Label34.ToolTip" xml:space="preserve">
+    <value>This is the car's tendency to stick to the floor once put there - kind of like magnetism. 
+"2" seems about average for Re-Volt cars.  
+Lower values will let the car lift off the track much more easily, and higher values will cause it to stick. </value>
+  </data>
+  <data name="Label47.ToolTip" xml:space="preserve">
+    <value>This is the car's inertia matrix.
+ The first number is the widest width of the car body in RV-Units, multiplied by 25.  
+The second number is the car's length in RV-Units, multiplied by 25. 
+ The third number is the car's height in RV-Units, multiplied by 25.  *UNSURE*  (about calculation) 
+ This helps determine the car's willingness to rotate or spin about the respective x, y, or z axis.
+  Higher values = more inertia (less willing to rotate) and lower values = less inertia (more willing to rotate). 
+ Messing with these values can make a car overly floppy and unstable.  I suggest copying an original Re-Volt car's values and sticking with them. 
+ Pick a car that has stability characteristics that you're looking for.  Note: this only affects a car body's dynamics, not wheel grip or anything like that.</value>
+  </data>
+  <data name="Label46.ToolTip" xml:space="preserve">
+    <value>This is the car body's resistance to movement while moving. 
+ I.E. if the car is upside-down and stationary and is hit by another car:  once the car starts moving, lower values will cause the car to slide further before stopping; higher values will cause the car to slide less. 
+ This also controls how much a car is slowed down by grinding against walls.  Do not make this value close to 0 - very bad idea.</value>
+  </data>
+  <data name="Label45.ToolTip" xml:space="preserve">
+    <value>This is the car body's resistance to movement while not moving.
+  I.E. if the car is upside-down and stationary and is hit by another car:  if this value is higher, the car will be harder to budge; if it is lower, the car will start moving more easily.  
+This also controls how much the body sticks to and opposes movement when touching a wall.  
+Do not make this value close to 0 - very bad idea.  Should be higher than kinetic friction.</value>
+  </data>
+  <data name="Label44.ToolTip" xml:space="preserve">
+    <value>his is the angular air resistance scale when airborne.
+  When this value is near the default of 25-30, the car will act like most RV cars in midair.
+  Higher values will cause the car to rotate more slowly and with less ease while in the air.  
+Lower values will cause the car to act more realistically, and therefore more erratic.  
+This is one of the factors Acclaim may have used to "dumb down" the physics of the cars (they made it higher).</value>
+  </data>
+  <data name="Label40.ToolTip" xml:space="preserve">
+    <value>The car's rotational air resistance.  
+This the car is airborne, the car will often rotate, roll, flip end over end, or do flat spins.
+  This value determines the amount of resistance the car will encounter while spinning or turning.
+  Again, .001 is the default, and should be good for most cars. 
+ Higher values will make the car act as if turning in a thicker substance than air.  
+High values can also keep the car from rotating at all in the air, which is very unrealistic.
+  To make the car act more realistically, this should be the same as Resistance and close to the default value.
+  Does not affect linear air resistance.</value>
+  </data>
+  <data name="Label41.ToolTip" xml:space="preserve">
+    <value>The car's linear air resistance.  While the car is moving, the car will slow because of air resistance.  
+0.001 is the default, and should be good for most cars.
+ Higher values will make the car act as if moving in a thicker substance than air.  
+Does not affect rotation.</value>
+  </data>
+  <data name="Label38.ToolTip" xml:space="preserve">
+    <value>The car body's "hardness" value.  0 is default.  
+Higher values make the car act bouncy, or taut, like a drumhead or a fully inflated beach ball. 
+ If too high, the car will bounce extremely far when it hits anything at speed.  
+Lower values cause the car to recieve small shocks well, but will cause the car body to bounce after hard hits - like a rebounding rubber ball.
+
+</value>
+  </data>
+  <data name="TextBox40.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label48.ToolTip" xml:space="preserve">
+    <value>This is the car body's resistance to movement while moving. 
+ I.E. if the car is upside-down and stationary and is hit by another car:  once the car starts moving, lower values will cause the car to slide further before stopping; higher values will cause the car to slide less. 
+ This also controls how much a car is slowed down by grinding against walls.  Do not make this value close to 0 - very bad idea.</value>
+  </data>
+  <data name="TextBox41.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label49.ToolTip" xml:space="preserve">
+    <value>This is the car body's resistance to movement while not moving.
+  I.E. if the car is upside-down and stationary and is hit by another car:  if this value is higher, the car will be harder to budge; if it is lower, the car will start moving more easily.  
+This also controls how much the body sticks to and opposes movement when touching a wall.  
+Do not make this value close to 0 - very bad idea.  Should be higher than kinetic friction.</value>
+  </data>
+  <data name="TextBox42.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="TextBox44.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label52.ToolTip" xml:space="preserve">
+    <value>The car's rotational air resistance.  
+This the car is airborne, the car will often rotate, roll, flip end over end, or do flat spins.
+  This value determines the amount of resistance the car will encounter while spinning or turning.
+  Again, .001 is the default, and should be good for most cars. 
+ Higher values will make the car act as if turning in a thicker substance than air.  
+High values can also keep the car from rotating at all in the air, which is very unrealistic.
+  To make the car act more realistically, this should be the same as Resistance and close to the default value.
+  Does not affect linear air resistance.</value>
+  </data>
+  <data name="TextBox45.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label53.ToolTip" xml:space="preserve">
+    <value>The car's linear air resistance.  While the car is moving, the car will slow because of air resistance.  
+0.001 is the default, and should be good for most cars.
+ Higher values will make the car act as if moving in a thicker substance than air.  
+Does not affect rotation.</value>
+  </data>
+  <data name="TextBox46.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label54.ToolTip" xml:space="preserve">
+    <value>The car body's "hardness" value.  0 is default.  
+Higher values make the car act bouncy, or taut, like a drumhead or a fully inflated beach ball. 
+ If too high, the car will bounce extremely far when it hits anything at speed.  
+Lower values cause the car to recieve small shocks well, but will cause the car body to bounce after hard hits - like a rebounding rubber ball.
+
+</value>
+  </data>
+  <data name="TextBox47.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Button32.ToolTip" xml:space="preserve">
+    <value>Center of Mass relative to car model center. Basically: the point in the car's body where the car will rotate around while in midair. A positive second value moves the CoM up, and a negative value moves it down, unlike everything else.</value>
+  </data>
+  <data name="TextBox32.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label42.ToolTip" xml:space="preserve">
+    <value>The car's linear air resistance.  While the car is moving, the car will slow because of air resistance.  
+0.001 is the default, and should be good for most cars.
+ Higher values will make the car act as if moving in a thicker substance than air.  
+Does not affect rotation.</value>
+  </data>
+  <data name="TextBox24.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label57.ToolTip" xml:space="preserve">
+    <value>This is the car body's resistance to movement while moving. 
+ I.E. if the car is upside-down and stationary and is hit by another car:  once the car starts moving, lower values will cause the car to slide further before stopping; higher values will cause the car to slide less. 
+ This also controls how much a car is slowed down by grinding against walls.  Do not make this value close to 0 - very bad idea.</value>
+  </data>
+  <data name="TextBox33.ToolTip" xml:space="preserve">
+    <value>This is the speed at which the actual turn of the steering wheels on the car approaches the turn 
+of the controlling device (joystick, wheel, gamepad, keyboard). Lower values make the wheels
+ snap more quickly to where your controller is set, while higher values make the steering wheels
+ turn more sluggishly.</value>
+  </data>
+  <data name="Label58.ToolTip" xml:space="preserve">
+    <value>This is the car body's resistance to movement while not moving.
+  I.E. if the car is upside-down and stationary and is hit by another car:  if this value is higher, the car will be harder to budge; if it is lower, the car will start moving more easily.  
+This also controls how much the body sticks to and opposes movement when touching a wall.  
+Do not make this value close to 0 - very bad idea.  Should be higher than kinetic friction.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>83</value>
+  </metadata>
+</root>
